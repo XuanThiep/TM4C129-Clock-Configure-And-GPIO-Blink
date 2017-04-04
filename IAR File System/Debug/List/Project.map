@@ -1,0 +1,240 @@
+###############################################################################
+#
+# IAR ELF Linker V8.10.1.12857/W32 for ARM                03/Apr/2017  22:06:45
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Xuan Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129
+#        Clock Configure And GPIO\IAR File System\Debug\Exe\Project.out
+#    Map file     =  
+#        C:\Users\Xuan Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129
+#        Clock Configure And GPIO\IAR File System\Debug\List\Project.map
+#    Command line =  
+#        -f C:\Users\XUANTH~1\AppData\Local\Temp\EW9696.tmp ("C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\adc.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\aes.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\can.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\comp.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\cpu.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\crc.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\des.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\eeprom.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\emac.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\epi.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\flash.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\fpu.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\gpio.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\hibernate.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\i2c.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\interrupt.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\lcd.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\main.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\mpu.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\onewire.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\pwm.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\qei.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\shamd5.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\ssi.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\sw_crc.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\sysctl.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\sysexc.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\systick.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\timer.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\uart.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\udma.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\usb.o" "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Obj\watchdog.o" -o "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\Exe\Project.out" --map "C:\Users\Xuan
+#        Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure
+#        And GPIO\IAR File System\Debug\List\Project.map" --config "C:\Program
+#        Files (x86)\IAR Systems\Embedded Workbench
+#        8.0\arm\config\linker\TexasInstruments\TM4C1294NC.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x000fffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2003ffff] { rw, block CSTACK, block HEAP };
+
+  Section   Kind        Address    Size  Object
+  -------   ----        -------    ----  ------
+"A0":                              0x40
+  .intvec   ro code  0x00000000    0x40  vector_table_M.o [5]
+                   - 0x00000040    0x40
+
+"P1":                             0x6e8
+  .text     ro code  0x00000040   0x4d0  sysctl.o [1]
+  .text     ro code  0x00000510   0x150  gpio.o [1]
+  .text     ro code  0x00000660    0x54  main.o [1]
+  .text     ro code  0x000006b4    0x22  fpinit_M.o [4]
+  .text     ro code  0x000006d6     0x2  vector_table_M.o [5]
+  .text     ro code  0x000006d8    0x1a  cmain.o [5]
+  .text     ro code  0x000006f2     0x4  low_level_init.o [3]
+  .text     ro code  0x000006f6     0x4  exit.o [3]
+  .text     ro code  0x000006fc     0xa  cexit.o [5]
+  .text     ro code  0x00000708    0x14  exit.o [6]
+  .text     ro code  0x0000071c     0xc  cstartup_M.o [5]
+                   - 0x00000728   0x6e8
+
+"P2":                            0x8000
+  CSTACK             0x20000000  0x8000  <Block>
+    CSTACK  uninit   0x20000000  0x8000  <Block tail>
+                   - 0x20008000  0x8000
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  rw data
+    ------            -------  -------
+C:\Users\Xuan Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure And GPIO\IAR File System\Debug\Obj: [1]
+    gpio.o                336
+    main.o                 84
+    sysctl.o            1 232
+    ----------------------------------
+    Total:              1 652
+
+command line: [2]
+    ----------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                  4
+    low_level_init.o        4
+    ----------------------------------
+    Total:                  8
+
+m7M_tls.a: [4]
+    fpinit_M.o             34
+    ----------------------------------
+    Total:                 34
+
+rt7M_tl.a: [5]
+    cexit.o                10
+    cmain.o                26
+    cstartup_M.o           12
+    vector_table_M.o       66
+    ----------------------------------
+    Total:                114
+
+shb_l.a: [6]
+    exit.o                 20
+    ----------------------------------
+    Total:                 20
+
+    Gaps                    4
+    Linker created              32 768
+--------------------------------------
+    Grand Total:        1 832   32 768
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+?main                   0x000006d9         Code  Gb  cmain.o [5]
+CSTACK$$Base            0x20000000          --   Gb  - Linker created -
+CSTACK$$Limit           0x20008000          --   Gb  - Linker created -
+GPIODirModeSet          0x00000511   0x28  Code  Gb  gpio.o [1]
+GPIOPadConfigSet        0x00000539  0x104  Code  Gb  gpio.o [1]
+GPIOPinTypeGPIOOutput   0x00000645    0xa  Code  Gb  gpio.o [1]
+GPIOPinWrite            0x0000063d    0x8  Code  Gb  gpio.o [1]
+Region$$Table$$Base     0x00000000          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00000000          --   Gb  - Linker created -
+SysCtlClockFreqSet      0x00000089  0x20a  Code  Gb  sysctl.o [1]
+SysCtlDelay             0x00000081    0x8  Code  Gb  sysctl.o [1]
+SysCtlPeripheralEnable  0x00000061    0x8  Code  Gb  sysctl.o [1]
+_SysCtlMemTimingGet     0x00000041   0x20  Code  Lc  sysctl.o [1]
+__cmain                 0x000006d9         Code  Gb  cmain.o [5]
+__exit                  0x00000709   0x14  Code  Gb  exit.o [6]
+__iar_init_vfp          0x000006b5         Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x0000071d         Code  Gb  cstartup_M.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__low_level_init        0x000006f3    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000         Data  Gb  vector_table_M.o [5]
+_call_main              0x000006e5         Code  Gb  cmain.o [5]
+_exit                   0x000006fd         Code  Gb  cexit.o [5]
+_main                   0x000006ef         Code  Gb  cmain.o [5]
+exit                    0x000006f7    0x4  Code  Gb  exit.o [3]
+g_pppui32XTALtoVCO      0x00000328  0x1b0  Data  Lc  sysctl.o [1]
+g_pui32VCOFrequencies   0x00000508    0x8  Data  Lc  sysctl.o [1]
+g_pui32Xtals            0x000002bc   0x6c  Data  Lc  sysctl.o [1]
+g_sXTALtoMEMTIM         0x000004d8   0x30  Data  Lc  sysctl.o [1]
+main                    0x00000661   0x54  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\Xuan Thiep\Documents\MEGA\Projects\TM4C129 Projects\TM4C129 Clock Configure And GPIO\IAR File System\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+   1 832 bytes of readonly  code memory
+  32 768 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
